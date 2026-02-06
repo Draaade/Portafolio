@@ -36,8 +36,8 @@ a:visited {
 }
 
 .header {
-  height: 258px;
-  padding: 2%;
+  height: 300px;
+  padding-bottom: 2%;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
