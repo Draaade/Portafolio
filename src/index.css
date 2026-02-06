@@ -1,0 +1,112 @@
+/* refers to the html with trasparent background*/
+.page {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+/* changes all the link colors in the whole page */
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: red;
+}
+
+
+#main {
+  font-style:italic;
+}
+
+#contact-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+  width:50%;
+  text-align:center;
+  padding: 2px 5px;
+}
+
+#more-info {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.body {
+  color: white;
+  border: 2px dotted black;
+  padding: 0;
+  background-image: url("images/shapes-repeating.jpg");
+}
+
+.header {
+  height: 258px;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("images/flower1.png");
+  place-items: center;
+  width: 100%;
+  height:256px;
+}
+
+.hello-icon {
+  background-color: transparent;
+  width: 6rem;
+  height: 7rem;
+}
+
+.divider {
+  width: 100%;
+  border: 3px solid white;
+}
+
+.section-title {
+  color: white;
+  text-align: center;
+  background-color: transparent;
+  font-size: 3rem;
+}
+
+.text-large {
+  font-size: 2rem;
+}
+
+#interest {
+  color:yellow;
+}
+
+.section-header {
+  border-bottom: 2px solid white;
+  font-size: 2rem;
+}
+
+.list-large {
+  font-size: 2rem;
+}
+
+.list-medium {
+  font-size: 1.5rem;
+}
+
+.star polygon {
+  fill: yellow;
+  stroke: black;
+  stroke-width: 5;
+  fill-rule: evenodd;
+}
+
+/* turns the background of the footer a transparent black color */
+.footer {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-home {
+  color: white;
+  font-size: 2rem;
+}
+
